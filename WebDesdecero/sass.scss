@@ -1,0 +1,55 @@
+/*Declaración de variables*/
+$base-font-family: 'Titillium Web', sans-serif;
+$decoracion-titulos: underline;
+$texto-justificado: justify;
+
+
+*{
+    font-family: $base-font-family;
+}
+
+h2{
+    text-decoration: $decoracion-titulos;
+}
+
+p{
+    text-align: $texto-justificado;
+}
+
+.centrar{
+    margin: 0px auto;
+}
+
+.color{
+    background-color: rgb(202, 202, 202);
+}
+
+
+.usuario{
+    font-weight: bold;
+}
+
+/*Anidandp*/
+#comentarios{
+    background-color: lavenderblush;
+
+    blockquote{
+        padding: 5px;
+        text-align: justify;
+
+    }
+}
+
+#contacto{
+    background-image: url(img/smartphones.png);
+    /*margin-bottom: 50px;*/
+
+    form{
+        padding: 20px;
+    }
+
+    .footer-buttom{
+        padding-bottom: 40px;
+    }
+}
+

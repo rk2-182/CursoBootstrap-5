@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*Declaración de variables*/
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
+
+.centrar {
+  margin: 0px auto;
+}
+
+.color {
+  background-color: #cacaca;
+}
+
+.usuario {
+  font-weight: bold;
+}
+
+/*Anidandp*/
+#comentarios {
+  background-color: lavenderblush;
+}
+#comentarios blockquote {
+  padding: 5px;
+  text-align: justify;
+}
+
+#contacto {
+  background-image: url(img/smartphones.png);
+  /*margin-bottom: 50px;*/
+}
+#contacto form {
+  padding: 20px;
+}
+#contacto .footer-buttom {
+  padding-bottom: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */
